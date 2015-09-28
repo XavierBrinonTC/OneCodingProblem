@@ -1,0 +1,17 @@
+http://onecodingproblem.com/2015/09/27/number-of-permutations-in-a-string-of-numbers/
+
+Problem:
+
+Given a string of digits: e.g. ‘1210121256983201…’ and given that a digit maps to a letter in the alphabet – 0 is ‘a’, 1 is ‘b’, etc.
+
+Write a function that will return all of the possible permutations of the string.
+
+So for example:
+
+The string ‘112’ would map to 3 possible combinations.
+
+    [‘1’, ‘1’, ‘2’] → [‘b’, ‘b’, ‘c’]
+    [’11’, ‘2’] -> [‘l’, ‘c’]
+    [‘1′, ’12’] -> [‘b’, ‘m’]
+
+Don’t worry about ASCII. Assume that each of the 26 characters maps to an integer, and no uppercase.
